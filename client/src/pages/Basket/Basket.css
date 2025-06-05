@@ -1,0 +1,67 @@
+.basket-container {
+    background-color: #EFEAE0;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Neucha', cursive;
+}
+
+.basket-content {
+    padding-top: 90px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.basket-title {
+    font-family: 'UnlimitedPie', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.basket-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.basket-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.basket-total-count,
+.basket-total-sum {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+
+.basket-clear-btn:hover {
+    background-color: #c9302c;
+}
+
+.basket-clear-btn {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.order-success-msg {
+    color: green;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}

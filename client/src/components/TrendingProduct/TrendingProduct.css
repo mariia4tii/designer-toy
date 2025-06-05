@@ -1,0 +1,74 @@
+.main-container{
+    background: #EFEAE0;
+    margin-top: -180px;
+     
+  }
+
+  .main-container1{
+    width: 1700px;  
+    height: auto;
+  
+  }
+  .title {
+    position: absolute;
+    top: 220%; /* Поднимите текст на 240% от верха, чтобы текст был выше */
+    left: 50%;
+    transform: translateX(-50%); /* Центрируем текст по горизонтали */
+    font-size: 70px;
+    color: #181818;
+    margin-top: 50px;
+    font-family: 'UnlimitedPie', sans-serif;
+    white-space: nowrap; /* Предотвращает разрыв текста на несколько строк */
+  }
+  .product-gallery {
+    position: absolute;
+    top: 260%;
+    left: 16%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    grid-template-rows: repeat(2, 1fr); /* 2 ряда */
+    gap: 20px; /* Расстояние между изображениями */
+    width: 50%; /* Ширина галереи */
+    max-width: 1500px; /* Максимальная ширина, чтобы не растягивалась на всю страницу */
+    margin: 0 auto; /* Центрируем галерею по горизонтали */
+  }
+
+  .product-item img{
+    width: 350px; /* Фиксированная ширина */
+    height: 350px; /* Фиксированная высота */
+    object-fit: cover; /* Заполнение контейнера с возможной обрезкой */
+  }
+  .view-more-btn {
+    position: relative; /* Устанавливаем относительное позиционирование для использования top */
+    top: -80px; /* Расстояние от верха страницы */
+    
+    /* Центрирование кнопки по горизонтали */
+    display: inline-block;
+    padding: 15px 30px; /* Отступы внутри кнопки */
+    font-size: 32px; /* Размер текста */
+    font-family: "Neucha", cursive; /* Шрифт */
+    color: #EFEAE0; /* Цвет текста */
+    background-color: #FF734D; /* Цвет фона кнопки */
+    border: none; /* Без рамки */
+    border-radius: 0px; /* Без закругленных углов */
+    cursor: pointer; /* Курсор при наведении */
+    text-align: center; /* Текст по центру */
+    transition: background-color 0.3s ease; /* Плавное изменение фона при наведении */
+    box-sizing: border-box; /* Учитывать padding в размерах кнопки */
+    margin: 0 auto; /* Выравнивание по центру по горизонтали */
+    display: block; /* Чтобы можно было центрировать с помощью margin: auto */
+  }
+  
+  /* Эффект наведения на кнопку */
+  .view-more-btn:hover {
+    background-color: #e85a39; /* Изменение фона при наведении */
+  }
+  
+  
+  /* Эффект наведения на кнопку */
+  .view-more-btn:hover {
+    background-color: #e85a39; /* Цвет кнопки при наведении */
+  }
+  
+  
+  

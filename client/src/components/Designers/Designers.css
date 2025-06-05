@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+ 
+  .main-container1{
+    background: #EFEAE0;
+    margin-top: -180px;
+     
+  }
+
+  .title1 {
+    position: absolute;
+    top: 400%; /* Поднимите текст на 240% от верха, чтобы текст был выше */
+    left: 50%;
+    transform: translateX(-90%); /* Центрируем текст по горизонтали */
+    font-size: 70px;
+    color: #181818;
+    margin-top: 50px;
+    font-family: 'UnlimitedPie', sans-serif;
+    white-space: nowrap; /* Предотвращает разрыв текста на несколько строк */
+  }
+  .product-gallery1 {
+    position: absolute;
+    top: 430%;
+    left: 12%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 колонки */
+    grid-template-rows: repeat(1, 1fr); /* 2 ряда */
+    gap: 60px; /* Расстояние между изображениями */
+    width: 50%; /* Ширина галереи */
+    max-width: 1500px; /* Максимальная ширина, чтобы не растягивалась на всю страницу */
+    margin: 0 auto; /* Центрируем галерею по горизонтали */
+  }
+
+  .product-item1 img{
+    width: 350px; /* Фиксированная ширина */
+    height: 400px; /* Фиксированная высота */
+    object-fit: cover; /* Заполнение контейнера с возможной обрезкой */
+  }
+ 
+  

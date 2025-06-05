@@ -1,0 +1,23 @@
+.navbar-custom {
+    background-color: #EFEAE0; /* Установите свой цвет фона */
+    font-family: "Neucha", cursive; /* Установите шрифт */
+    color: #181818; /* Цвет текста */
+}
+.navbar-custom .nav-link {
+    color: #181818 !important; /* Цвет ссылок */
+    font-size: 24px !important; /* Размер текста ссылок */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #98AEFA !important; /* Цвет при наведении */
+}
+.icon-button {
+    background-color: transparent; /* Убирает фон */
+    border: none; /* Убирает рамку */
+    padding: 0; /* Убирает отступы */
+}
+
+.icon-button:hover {
+    background-color: transparent; /* Убирает фон при наведении */
+}
+

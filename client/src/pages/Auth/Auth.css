@@ -1,0 +1,83 @@
+/* Общие стили для всей страницы */
+html, body {
+    background-color: #EFEAE0; /* Задний фон страницы */
+    margin: 0;
+    padding: 0;
+    font-family: 'Neucha', cursive; /* Основной шрифт для текста */
+    color: #181818; /* Цвет текста */
+}
+
+/* Контейнер для всего контента */
+.auth-container {
+    height: calc(100vh - 54px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEAE0;
+}
+
+/* Карточка для формы */
+.auth-card {
+    width: 600px;
+    background-color: #EFEAE0;
+    color: #181818;
+    font-family: 'Neucha', cursive;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Заголовок формы */
+.auth-title {
+    font-family: 'UnlimitedPie', sans-serif;
+    text-align: center;
+    color: #181818;
+}
+
+/* Вводные поля */
+.auth-input {
+    font-family: 'Neucha', cursive;
+    color: #181818;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Ссылки для навигации */
+.auth-link-text {
+    width: 100%;
+    font-family: 'Neucha', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Стиль для ссылки */
+.auth-link {
+    color: #181818;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.auth-link:hover {
+    color: #98AEFA;
+}
+
+/* Кнопка */
+.auth-button {
+    width: 100%;
+    background-color: #9DD9BF;
+    border: none;
+    font-family: 'Neucha', cursive;
+    color: #181818;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.auth-button:hover {
+    background-color: #8CC9B0;
+}

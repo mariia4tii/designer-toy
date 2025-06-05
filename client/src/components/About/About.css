@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+.features {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .feature-blocks {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature {
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .main-container{
+    background: #EFEAE0;
+    margin-top: -150px;
+  
+  }
+  body {
+    background-color: #EFEAE0; /* Задний фон страницы */
+}
+ 
+  

@@ -1,0 +1,40 @@
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Задаем полный экран */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+  background-color: #EFEAE0;/* Чтобы избежать прокрутки */
+}
+
+.relative-container {
+  position: relative;
+}
+
+.relative-container img {
+  position: absolute;
+  max-width: 100%; /* Чтобы изображения не выходили за пределы контейнера */
+  top: 0;
+  left: 0;
+  z-index: 1; /* Устанавливаем, чтобы изображения располагались поверх фона */
+}
+
+.relative-container-korob {
+  position: absolute;
+  top: 50%; /* Можно изменить в зависимости от того, где хотите разместить */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.absolute-image, .absolute-image-korob1, .absolute-image-korob2, .absolute-image-korob3 {
+  max-width: 100%;
+}
+
+svg {
+  position: absolute;
+  z-index: 2; /* Устанавливаем SVG поверх изображений */
+  pointer-events: none; /* Чтобы не мешать взаимодействию с другими элементами */
+}

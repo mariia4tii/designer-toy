@@ -1,0 +1,73 @@
+.admin-designs-container {
+    padding: 20px;
+    font-family: 'Neucha', cursive;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.designs-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.designs-table th,
+.designs-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.designs-table th {
+    background-color: #f0f0f0;
+}
+
+.approve-btn,
+.reject-btn {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.approve-btn {
+    background-color: #4CAF50;
+}
+
+.reject-btn {
+    background-color: #f44336;
+}
+
+.status-label {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    text-transform: capitalize;
+}
+
+.status-label.approved {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-label.rejected {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.status-label.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
